@@ -1,0 +1,20 @@
+.container {
+    border: 15px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 90vh;
+    width: 90vw;
+}
+
+.item {
+    background-color: rgb(228, 114, 133);
+    border: 5px solid red;
+    color: aliceblue;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+    height: 100px;
+    padding: 0.5rem;
+    width: 100px;
+}
+
