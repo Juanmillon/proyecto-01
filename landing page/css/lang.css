@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 768px) {
+  }
+  
+  @media (min-width: 769px) {
+  }  
+  header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #19c6cc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #942626;
+  }
+  
+  main {
+    padding: 35px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #f14731;
+    border: none;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  /* Estilos para el encabezado */
+header {
+    position: relative;
+    text-align: center;
+  }
+  
+  header img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  header h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }

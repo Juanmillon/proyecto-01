@@ -1,4 +1,3 @@
-console.log()
 function mayorArray(array) {
     if (array.length === 0) {
       return null;
